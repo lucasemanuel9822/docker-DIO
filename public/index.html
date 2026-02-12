@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Tech | DIO Docker</title>
+    <meta name="description" content="A landing page created inside a Docker container using Apache Web Server.">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Space+Grotesk:wght@300;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+        <div class="globe globe-3"></div>
+    </div>
+
+    <header class="glass-header">
+        <nav>
+            <div class="logo">DIO.APP</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="cta-button">Get Started</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 id="dynamic-typing">Welcome to the Next Level</h1>
+                <p>Deploying powerful web applications with Docker and Apache. Fast, scalable, and secure.</p>
+                <div class="hero-actions">
+                    <button class="primary-btn">Explore Docs</button>
+                    <button class="secondary-btn">View Code</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="card floating-card">
+                    <div class="card-icon">🐳</div>
+                    <h3>Dockerized</h3>
+                    <p>Running on Apache httpd:alpine</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <h2>Core Features</h2>
+            <div class="features-grid">
+                <div class="feature-card glass-card">
+                    <div class="icon">🚀</div>
+                    <h3>Lightweight</h3>
+                    <p>Optimized for speed using minimal resources.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="icon">🎨</div>
+                    <h3>Modern Design</h3>
+                    <p>Glassmorphism UI with smooth animations.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="icon">⚡</div>
+                    <h3>Instant Deploy</h3>
+                    <p>From code to production in seconds with Compose.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="status" class="status-section glass-card">
+            <h3>System Status</h3>
+            <div class="status-indicator">
+                <span class="dot online"></span>
+                <span id="server-status-text">Server Online</span>
+            </div>
+            <p id="uptime-counter">Uptime: 0s</p>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <p>&copy; 2026 DIO Docker Project. Built with <span class="heart">❤</span> by Lucas.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
